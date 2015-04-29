@@ -1,0 +1,14 @@
+{
+  "name": "markdownapp",
+  "version": "0.0.1",
+  "description": "Mardown app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Shestmintsev",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  }
+}
