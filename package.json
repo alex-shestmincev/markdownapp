@@ -4,12 +4,17 @@
   "description": "Mardown app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "author": "Alex Shestmintsev",
   "license": "ISC",
   "dependencies": {
     "hapi": "^8.4.0",
     "markdown": "git://github.com/klik1301/markdown.git"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0"
   }
 }
